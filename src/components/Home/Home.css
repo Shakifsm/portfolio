@@ -1,0 +1,25 @@
+.parent{
+    background-color: #111111;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-main{
+    padding: 30px;
+    margin-top: 90px;
+}
+
+.icons a{
+    color: white;
+    margin-right: 20px;
+}
+
+.icons a:hover{
+    color: tomato;
+}
+
+@media ( max-width:688px){
+    .home-main{
+        margin-top: 0px;
+    }
+}
