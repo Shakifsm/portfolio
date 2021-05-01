@@ -1,0 +1,45 @@
+.projetcs-parent {
+    background-color: #111111;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+}
+
+.project-area {
+    padding-top: 50px;
+}
+
+
+
+.live {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 5px 40px;
+}
+
+.github {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 5px 30px;
+    margin-left: 200px;
+    
+}
+
+.live:hover{
+    background-color: salmon;
+    color: white;
+}
+
+.github:hover{
+    background-color: salmon;
+    color: white;
+}
+
+@media ( max-width:688px){
+    .github {
+        margin-left: 100px;
+        
+    }
+}

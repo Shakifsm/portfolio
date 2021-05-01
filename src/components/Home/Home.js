@@ -2,7 +2,6 @@ import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import "./Home.css"
 import img from "../../images/Screenshot_33.png";
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTwitter, faFacebookF, faLinkedinIn, faInstagram, faGithub} from '@fortawesome/free-brands-svg-icons'
 
@@ -14,8 +13,9 @@ const Home = () => {
             </div>
             <div className="col-md-10 col-sm-12 p-3">
                 <div className="row home-main">
-                    <div className="col-md-5 image">
-                        <img src={img} alt="" className="img-fluid pl-5"/>
+                    <div className="col-md-5 avatar">
+                        {/* <img src={img} alt="" className="img-fluid pl-5"/> */}
+                        <div className="image"></div>
                     </div>
                     <div className="col-md-7 pt-5">
                         <h1 style={{fontSize:'50px'}}>Tanvir Mahtab Shakif</h1>
