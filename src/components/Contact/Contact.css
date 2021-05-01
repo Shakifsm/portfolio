@@ -1,0 +1,38 @@
+.contact-parent {
+    background-color: #111111;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+.input-field{
+    background: transparent !important;
+    color: white !important;
+    
+}
+
+.input-label{
+    color: #B0B0B0;
+}
+
+::placeholder {
+    color: white !important;
+  }
+
+.submit-btn{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 30px;
+}
+
+.submit-btn:hover{
+    padding-right: 40px;
+    transition: 0.5s;
+}
+
+@media ( max-width:688px){
+    .contact-parent{
+        height: 150vh;
+    }
+}

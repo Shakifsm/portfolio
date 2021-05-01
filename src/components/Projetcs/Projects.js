@@ -14,7 +14,7 @@ const Projects = () => {
                 <Sidebar></Sidebar>
             </div>
             <div className="col-md-10 col-sm-12">
-                <div className="project-area p-5">
+            <div className="project-area p-5">
                     <h3 className="pb-5">Recent Projects</h3>
                     <div className="row w-100">
                         <div className="col-md-6 pb-5">
