@@ -3,8 +3,10 @@ import Sidebar from '../Sidebar/Sidebar';
 import "./Home.css"
 // import img from "../../images/Screenshot_33.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFacebookF, faLinkedinIn, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom';
+import TypewriterComponent from 'typewriter-effect';
 
 const Home = () => {
     return (
@@ -20,8 +22,23 @@ const Home = () => {
                     </div>
                     <div className="col-md-7 pt-5">
                         <h1 style={{ fontSize: '50px' }}>Tanvir Mahtab Shakif</h1>
-                        <p style={{ color: '#B0B0B0' }}>I'm a web designer and Front-End Developer, skilled in JavaScript, HTML, CSS, React JS. I have experience with responsive design using multiple frameworks, particularly Bootstrap and Material-UI.</p>
-                        <Link to="/files/Front_End_Developer_Resume_Updated.pdf" target="_blank" download type="button" class="btn btn-outline-primary text-white">Download Resume</Link>
+                        
+                        <h3 style={{color:'salmon'}}><TypewriterComponent
+                            options = {{
+                                autoStart : true,
+                                loop : true,
+                                delay : 80,
+                                strings : [
+                                    'Front-End-Developer',
+                                    'MERN Developer',
+                                    'WordPress Theme Customizer'
+                                ],
+                                
+                            }}
+                        /></h3>
+
+
+                        <Link to="/files/Front_End_Developer_Resume_Updated.pdf" target="_blank" download type="button" className="btn btn-outline-primary text-white mt-4"><FontAwesomeIcon className="download-icon" icon={faDownload} />Download Resume</Link>
                         <div className="icons pt-5">
                             <a href="https://www.facebook.com/ShakifSM/" target="blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                             <a href="https://www.facebook.com/ShakifSM/" target="blank"><FontAwesomeIcon icon={faTwitter} /></a>

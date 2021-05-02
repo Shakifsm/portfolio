@@ -52,11 +52,16 @@
 
 .icons a{
     color: white;
+    font-size: 18px;
     margin-right: 20px;
 }
 
 .icons a:hover{
-    color: tomato;
+    color: #007BFF;
+}
+
+.download-icon{
+    margin-right: 7px;
 }
 
 @media ( max-width:688px){

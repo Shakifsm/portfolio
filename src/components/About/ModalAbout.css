@@ -1,0 +1,16 @@
+.modal-btn{
+    border: none;
+    color: red;
+    background: transparent;
+    
+}
+
+.close-icon{
+    font-size: 30px;
+}
+
+@media ( max-width:688px){
+    .bars{
+        width: 300px !important;
+    }
+}

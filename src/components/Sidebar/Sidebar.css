@@ -9,6 +9,21 @@
     
 }
 
+.sidebar li{
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.sidebar li a{
+    color: white;
+}
+
+.sidebar li a:hover{
+    text-decoration: none;
+}
+
 @media ( max-width:688px){
     .sidebar{
        display: none ;

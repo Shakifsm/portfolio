@@ -4,3 +4,13 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 50px;
 }
+
+.blog-btn{
+    border: none;
+    padding: 10px 20px;
+}
+
+.blog-btn:hover{
+    padding-right: 30px;
+    transition: 0.5s;
+}

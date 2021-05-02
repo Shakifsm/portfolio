@@ -5,11 +5,6 @@
     padding-bottom: 50px;
 }
 
-.project-area {
-    padding-top: 50px;
-}
-
-
 
 .live {
     border: none;
@@ -42,8 +37,4 @@
         margin-left: 100px;
         
     }
-}
-
-.card-body{
-    background-color: #111111;
 }
